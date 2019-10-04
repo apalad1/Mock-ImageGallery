@@ -1,0 +1,47 @@
+body{
+	padding-top: 70px;
+	 background-image: url("mountain.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+}
+
+#aboutpage{
+	 background-image: url("river.png");
+}
+
+/*change the bg not text/img for jumbotronbox
+  and thumbail box */
+.jumbotron{
+	background-color: rgba(255,255,255,0.5);
+}
+.thumbnail{
+	background-color: rgba(255,255,255,0.0);
+	border-color: rgba(255,255,255,0.0);
+
+
+}
+
+img{
+	max-height: 400px;
+}
+
+
+
+
+.thumbnail:hover{
+	background-color: rgba(245, 182, 105, 0.5); 
+}
+
+.navbar-right{
+	margin-right: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: lightgreen;
+}
+
+.navbar-inverse .navbar-header>a{
+	color: orange;
+}
+
